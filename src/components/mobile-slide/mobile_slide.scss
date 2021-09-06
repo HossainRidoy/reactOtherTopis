@@ -1,0 +1,90 @@
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
+
+#mobileSlide {
+    width: 350px;
+    height: 750px;
+    background: #e7e7e7;
+    border-radius: 60px;
+    position: relative;
+    box-shadow: inset 0px 0px 20px 0px #b6b6b6;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 6px;
+        height: 50px;
+        background-color: #e7e7e7;
+        top: 117px;
+        left: -6px;
+        border-radius: 20px;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        width: 6px;
+        height: 50px;
+        background-color: #e7e7e7;
+        top: 180px;
+        left: -6px;
+        border-radius: 20px;
+    }
+    .power-button{
+      position: absolute;
+      content: "";
+      position: absolute;
+      width: 6px;
+      height: 100px;
+      background-color: #e7e7e7;
+      top: 117px;
+      right: -6px;
+      border-radius: 20px;
+    }
+    .mobile_body {
+        position: absolute;
+        width: 90%;
+        height: 95%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        border-radius: 40px;
+        overflow: hidden;
+        &::before{
+            position: absolute;
+            content: "";
+            position: absolute;
+            width: 165px;
+            height: 25px;
+            background-color: #e7e7e7;
+            top: -1px;
+           left: 50%;
+           transform: translateX(-50%);
+            border-radius: 0 0 20px 20px;
+            z-index: 1;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            width: 50px;
+            height: 6px;
+            background-color: #00000029;
+            top: 5px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 20px;
+            z-index: 1;
+        }
+    }
+    .slick-dots{
+        bottom: 40px;
+    }
+
+    .slick-dots li button:before {
+        color: white;
+    }
+
+    .slick-dots li.slick-active button:before {
+        color: white;
+    }
+
+}
