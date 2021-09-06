@@ -4,6 +4,7 @@ const Github=()=> {
     return (
         <div>
             <h1>Github</h1>
+            <p>Github new user</p>
         </div>
     )
 }
