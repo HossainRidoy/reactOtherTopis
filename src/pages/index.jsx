@@ -18,6 +18,7 @@ import Timing from '../components/timing'
 import Todo from '../components/todo'
 import Beatnik from '../components/beatnik'
 import Todo2 from '../components/todo2'
+import Github from '../components/github'
 
 const Pages = () => {
     return (
@@ -42,6 +43,7 @@ const Pages = () => {
             <Form/>
             <Lodding/>
             <Todo2/>
+            <Github/>
         </div>
 
     )
